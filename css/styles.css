@@ -356,7 +356,6 @@ body {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .portfolio-afret-list {
@@ -364,6 +363,7 @@ body {
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 30px;
+  padding-top: 50px;
 }
 
 .portfolio-img {
