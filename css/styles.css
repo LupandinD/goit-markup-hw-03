@@ -24,6 +24,7 @@ button {
 }
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 img {
   display: block;
@@ -90,6 +91,9 @@ body {
 }
 
 /* header */
+.header {
+  border: 1px solid #ececec;
+}
 
 .header-nav .header-link.current {
   color: var(--hover-logo-color);
@@ -360,9 +364,9 @@ body {
   text-align: center;
 }
 
-.footer-list {
+/* .footer-list {
   padding-top: 20px;
-}
+} */
 
 .footer-list > li:not(:last-child) {
   margin-bottom: 9px;
